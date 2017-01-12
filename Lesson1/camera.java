@@ -7,10 +7,10 @@ public class camera {
 	
 	static void Stream(int PIN){
 		boolean Connection = true;
-		if (Connection = true && PIN < 5){					// the "&&" is a double statement meaning "X and Y".
+		if (Connection == true && PIN < 5){					// the "&&" is a double statement meaning "X and Y".
 			System.out.println("Connected\n");
 			}
-		else if (Connection = false) {
+		else if (Connection == false) {
 			System.out.println("Not Connected\n");
 			}												// the "||" is like "&&" except that "||" means or, "X or Y" but "||" also means "X and Y".
 		else if (PIN > 4 || PIN == 5) {						/* X < 5  is equal to X <= 4  */
